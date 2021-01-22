@@ -21,6 +21,12 @@ Should give you this output back:
 
 If startNum is the same as endNum, return an empty array.
 
+NOTES:
+two paramters --> a start number and an end number
+I need an array to hold the returned values
+let i = start numner + 1 (since we need one more AKA 2-9 so start with 3) and also one less than the end num, so 8 would be the last number. i < end num.
+push out the numbers and return the array
+
 function range(startNum, endNum){
    const arr=[];
    for (let i=startNum+1; i<endNum; i++){
